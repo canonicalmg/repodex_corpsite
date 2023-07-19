@@ -60,7 +60,7 @@ export default function Footer() {
                     <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">About Us</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Contact</Link>
+                    <Link href="https://calendly.com/canonicalmg/product-demo" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Contact</Link>
                   </li>
                 </ul>
               </div>

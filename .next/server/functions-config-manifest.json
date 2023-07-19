@@ -3,7 +3,7 @@
   "functions": {
     "/reset-password": {},
     "/signin": {},
-    "/": {},
-    "/signup": {}
+    "/signup": {},
+    "/": {}
   }
 }

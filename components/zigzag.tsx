@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
-import FeatImage01 from '@/public/images/features-03-image-01.png'
-import FeatImage02 from '@/public/images/features-03-image-02.png'
-import FeatImage03 from '@/public/images/features-03-image-03.png'
+import FeatImage01 from '@/public/images/dashboard2.png'
+import FeatImage02 from '@/public/images/nodeview2.png'
+import FeatImage03 from '@/public/images/pullrequest.png'
 
 export default function Zigzag() {
   return (
@@ -66,7 +66,7 @@ export default function Zigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">AI-Assisted Troubleshooting</div>
-                  <h3 className="h3 mb-3">Bug Detection and Fixes</h3>
+                  <h3 className="h3 mb-3">Issue Detection</h3>
                   <p className="text-xl text-gray-400 mb-4">Let AI find bugs and suggest fixes in your code.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">

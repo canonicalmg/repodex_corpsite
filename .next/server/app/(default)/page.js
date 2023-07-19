@@ -253,7 +253,7 @@ __webpack_require__.r(__webpack_exports__);
         '(default)',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8748)), "/Users/marcusgraves/repodex_corpsite/app/(default)/page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7384)), "/Users/marcusgraves/repodex_corpsite/app/(default)/page.tsx"],
           
         }]
       },
@@ -301,15 +301,13 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 
 /***/ }),
 
-/***/ 3194:
+/***/ 7762:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4600));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7570));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7230, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4369));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6123));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5317))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 486));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5735));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3252))
 
 /***/ }),
 
@@ -333,7 +331,7 @@ var react_ = __webpack_require__(8038);
 var aos_cjs = __webpack_require__(5250);
 var aos_cjs_default = /*#__PURE__*/__webpack_require__.n(aos_cjs);
 // EXTERNAL MODULE: ./node_modules/aos/dist/aos.css
-var aos = __webpack_require__(6038);
+var aos = __webpack_require__(1982);
 ;// CONCATENATED MODULE: ./components/page-illustration.tsx
 
 
@@ -659,147 +657,6 @@ function DefaultLayout({ children }) {
 
 /***/ }),
 
-/***/ 4600:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ ModalVideo)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8038);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _headlessui_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6235);
-/* harmony import */ var _headlessui_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(6183);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8421);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_2__);
-/* __next_internal_client_entry_do_not_use__ default auto */ 
-
-
-
-function ModalVideo({ thumb, thumbWidth, thumbHeight, thumbAlt, video, videoWidth, videoHeight }) {
-    const [modalOpen, setModalOpen] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);
-    const videoRef = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)(null);
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "relative flex justify-center items-center",
-                    "data-aos": "fade-up",
-                    "data-aos-delay": "200",
-                    children: [
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
-                            src: thumb,
-                            width: thumbWidth,
-                            height: thumbHeight,
-                            alt: thumbAlt
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
-                            className: "absolute group",
-                            onClick: ()=>{
-                                setModalOpen(true);
-                            },
-                            "aria-label": "Watch the video",
-                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("svg", {
-                                className: "w-16 h-16 sm:w-20 sm:h-20 hover:opacity-75 transition duration-150 ease-in-out",
-                                viewBox: "0 0 88 88",
-                                xmlns: "http://www.w3.org/2000/svg",
-                                children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("defs", {
-                                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("linearGradient", {
-                                            x1: "78.169%",
-                                            y1: "9.507%",
-                                            x2: "24.434%",
-                                            y2: "90.469%",
-                                            id: "a",
-                                            children: [
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("stop", {
-                                                    stopColor: "#EBF1F5",
-                                                    stopOpacity: ".8",
-                                                    offset: "0%"
-                                                }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("stop", {
-                                                    stopColor: "#EBF1F5",
-                                                    offset: "100%"
-                                                })
-                                            ]
-                                        })
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("circle", {
-                                        fill: "url(#a)",
-                                        cx: "44",
-                                        cy: "44",
-                                        r: "44"
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
-                                        className: "fill-current text-purple-600",
-                                        d: "M52 44a.999.999 0 00-.427-.82l-10-7A1 1 0 0040 37V51a.999.999 0 001.573.82l10-7A.995.995 0 0052 44V44c0 .001 0 .001 0 0z"
-                                    })
-                                ]
-                            })
-                        })
-                    ]
-                })
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_headlessui_react__WEBPACK_IMPORTED_MODULE_3__/* .Transition */ .u, {
-                show: modalOpen,
-                as: react__WEBPACK_IMPORTED_MODULE_1__.Fragment,
-                afterEnter: ()=>videoRef.current?.play(),
-                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_headlessui_react__WEBPACK_IMPORTED_MODULE_4__/* .Dialog */ .V, {
-                    initialFocus: videoRef,
-                    onClose: ()=>setModalOpen(false),
-                    children: [
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_headlessui_react__WEBPACK_IMPORTED_MODULE_3__/* .Transition */ .u.Child, {
-                            className: "fixed inset-0 z-[99999] bg-black bg-opacity-75 transition-opacity",
-                            enter: "transition ease-out duration-200",
-                            enterFrom: "opacity-0",
-                            enterTo: "opacity-100",
-                            leave: "transition ease-out duration-100",
-                            leaveFrom: "opacity-100",
-                            leaveTo: "opacity-0",
-                            "aria-hidden": "true"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_headlessui_react__WEBPACK_IMPORTED_MODULE_3__/* .Transition */ .u.Child, {
-                            className: "fixed inset-0 z-[99999] overflow-hidden flex items-center justify-center transform px-4 sm:px-6",
-                            enter: "transition ease-out duration-200",
-                            enterFrom: "opacity-0 scale-95",
-                            enterTo: "opacity-100 scale-100",
-                            leave: "ttransition ease-out duration-200",
-                            leaveFrom: "oopacity-100 scale-100",
-                            leaveTo: "opacity-0 scale-95",
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: "max-w-6xl mx-auto h-full flex items-center",
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_headlessui_react__WEBPACK_IMPORTED_MODULE_4__/* .Dialog */ .V.Panel, {
-                                    className: "w-full max-h-full aspect-video bg-black overflow-hidden",
-                                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("video", {
-                                        ref: videoRef,
-                                        width: videoWidth,
-                                        height: videoHeight,
-                                        loop: true,
-                                        controls: true,
-                                        children: [
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("source", {
-                                                src: video,
-                                                type: "video/mp4"
-                                            }),
-                                            "Your browser does not support the video tag."
-                                        ]
-                                    })
-                                })
-                            })
-                        })
-                    ]
-                })
-            })
-        ]
-    });
-}
-
-
-/***/ }),
-
 /***/ 9247:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -826,7 +683,7 @@ const __default__ = proxy.default;
 
 /***/ }),
 
-/***/ 8748:
+/***/ 7384:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -841,26 +698,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(6786);
-;// CONCATENATED MODULE: ./public/images/hero-image-01.jpg
-/* harmony default export */ const hero_image_01 = ({"src":"/_next/static/media/hero-image-01.1f6edd86.jpg","height":1152,"width":2048,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAUACAMBIgACEQEDEQH/xAAoAAEBAAAAAAAAAAAAAAAAAAAABgEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAJIFf//EABoQAAIDAQEAAAAAAAAAAAAAAAEDAgQRACP/2gAIAQEAAT8Ar3mNWSdHhFhyXf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQIBAT8Af//EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oACAEDAQE/AI//2Q==","blurWidth":8,"blurHeight":5});
-// EXTERNAL MODULE: ./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js
-var module_proxy = __webpack_require__(7814);
-;// CONCATENATED MODULE: ./components/modal-video.tsx
-
-const proxy = (0,module_proxy.createProxy)(String.raw`/Users/marcusgraves/repodex_corpsite/components/modal-video.tsx`)
-
-// Accessing the __esModule property and exporting $$typeof are required here.
-// The __esModule getter forces the proxy target to create the default export
-// and the $$typeof value is for rendering logic to determine if the module
-// is a client boundary.
-const { __esModule, $$typeof } = proxy;
-const __default__ = proxy.default;
-
-
-/* harmony default export */ const modal_video = (__default__);
 ;// CONCATENATED MODULE: ./components/hero.tsx
-
-
 
 function Hero() {
     return /*#__PURE__*/ jsx_runtime_.jsx("section", {
@@ -910,58 +748,47 @@ function Hero() {
                         ]
                     })
                 }),
-                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                /*#__PURE__*/ jsx_runtime_.jsx("div", {
                     className: "relative pt-32 pb-10 md:pt-40 md:pb-16",
-                    children: [
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: "max-w-3xl mx-auto text-center pb-12 md:pb-16",
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                                    className: "h1 mb-4",
-                                    "data-aos": "fade-up",
-                                    children: "Repodex: Find and Fix Bugs"
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    className: "text-xl text-gray-400 mb-8",
-                                    "data-aos": "fade-up",
-                                    "data-aos-delay": "200",
-                                    children: "AI-powered code analysis. Detect bugs, assess risks, and optimize your codebase with a single click."
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: "max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center",
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                            "data-aos": "fade-up",
-                                            "data-aos-delay": "400",
-                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                className: "btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0",
-                                                href: "#0",
-                                                children: "Try it Free"
-                                            })
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                            "data-aos": "fade-up",
-                                            "data-aos-delay": "600",
-                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                className: "btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4",
-                                                href: "#0",
-                                                children: "Learn more"
-                                            })
+                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: "max-w-3xl mx-auto text-center pb-12 md:pb-16",
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                                className: "h1 mb-4",
+                                "data-aos": "fade-up",
+                                children: "Repodex: Find and Fix Bugs"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                className: "text-xl text-gray-400 mb-8",
+                                "data-aos": "fade-up",
+                                "data-aos-delay": "200",
+                                children: "AI-powered code analysis. Detect bugs, assess risks, and optimize your codebase with a single click."
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: "max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center",
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        "data-aos": "fade-up",
+                                        "data-aos-delay": "400",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                            className: "btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0",
+                                            href: "#0",
+                                            children: "Try it Free"
                                         })
-                                    ]
-                                })
-                            ]
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx(modal_video, {
-                            thumb: hero_image_01,
-                            thumbWidth: 1024,
-                            thumbHeight: 576,
-                            thumbAlt: "Modal video thumbnail",
-                            video: "/videos/video.mp4",
-                            videoWidth: 1920,
-                            videoHeight: 1080
-                        })
-                    ]
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        "data-aos": "fade-up",
+                                        "data-aos-delay": "600",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                            className: "btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4",
+                                            href: "#0",
+                                            children: "Learn more"
+                                        })
+                                    })
+                                ]
+                            })
+                        ]
+                    })
                 })
             ]
         })
@@ -1382,12 +1209,12 @@ function Newsletter() {
 // EXTERNAL MODULE: ./node_modules/next/image.js
 var next_image = __webpack_require__(3501);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
-;// CONCATENATED MODULE: ./public/images/features-03-image-01.png
-/* harmony default export */ const features_03_image_01 = ({"src":"/_next/static/media/features-03-image-01.c6c2a762.png","height":810,"width":1080,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAIAAABxZ0isAAAAkElEQVR42g3MSQ6DIBQAUE7SRCvgR0DE1AE+DtXGDmm6ardepHfolcv6JY8MOKZUpBQyLjMOQjY4/sz7QzrE2vvWDUIZLqKV6+P72ncCuUacw/nih6W0DZSmag8sYUSpundTmFd78rFKWeH8sm13IrV1YcZp6cMUt4RC13bP641kueayAmmEqhgomssjL4S2f+1UHa2RwcCGAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":6});
-;// CONCATENATED MODULE: ./public/images/features-03-image-02.png
-/* harmony default export */ const features_03_image_02 = ({"src":"/_next/static/media/features-03-image-02.c699f572.png","height":810,"width":1080,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAIAAABxZ0isAAAAlklEQVR42mOws7FXVNNWVddW09JTlFBWkzKwc5pgHB7BYGtlY2NppaFvpCStbhzkaBXjY2xYou/lzaCopqytJWhpbqZnYKLv4GDt66miwqAso8Sgpetoap6so+egZ2RlZmanpW6gqWsCNJbB2DTOz3+eoXGUirqMgYWloam5irq2qoYOg5KqjIQMkJRT1dADCkFEdQxMAJtUHDDqGQ8LAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":6});
-;// CONCATENATED MODULE: ./public/images/features-03-image-03.png
-/* harmony default export */ const features_03_image_03 = ({"src":"/_next/static/media/features-03-image-03.818bd422.png","height":810,"width":1080,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAIAAABxZ0isAAAAkElEQVR42g3Muw3CMBAAUG9AS4FAie3zxd8zIcQJNh9RowTR0tCxAlswMrwBHjvm05qjVEaiEwob3ZXLt389WUplGA5gImgPOsR9zudPnG9M4nifppKIqFVmVKZIZGJZMedIh2vqH84F48jTqHSLNjChViHOtH3XuCHfRSKBFhr7rzyHisMCMHBlajCA1tLuB3i1G2h5T6MaAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":6});
+;// CONCATENATED MODULE: ./public/images/dashboard2.png
+/* harmony default export */ const dashboard2 = ({"src":"/_next/static/media/dashboard2.3ca13713.png","height":714,"width":998,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAIAAABxZ0isAAAAiUlEQVR42g3MwQnCQBAF0D+zs5soIl4CCh7EAuzA0rxagndbsRZvIlGDEHedmewr4NEvZ2YEYiKoB1QMd5frpX/cFcduVJzWZxTNt+SrpWz36DbBOwUcceEidtj5vKHh+w6BE7OZj5asJk18foz611BHVbSzCLeSM0BELG0bJUgpKkLMSYC/OzFPHpA86RmDjjcAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":6});
+;// CONCATENATED MODULE: ./public/images/nodeview2.png
+/* harmony default export */ const nodeview2 = ({"src":"/_next/static/media/nodeview2.7e1d5f79.png","height":714,"width":1181,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAeElEQVR42iWLSwrCQBBE+wSCd3Dp1dyJH4I7QbyELsbbRTLfnunumUnSEHgFBVUPcmFiFqkbtTaNFpisSwl1UoKPIcScS8ICznohWea5906kMrfWEQmM+Q3D5Xw9fc1H7+P4dz4gMjxf7/3xADu4Pe4xJus8YhZpK+NYZoLBVrusAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/images/pullrequest.png
+/* harmony default export */ const pullrequest = ({"src":"/_next/static/media/pullrequest.ff84006b.png","height":714,"width":1181,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAgklEQVR42mPwCPVxcHKzcXC3cfS1c/KwtnMSEpMVEJVhcAsMM7NyllbUk1U2EJJUZ+CQU1bTE5OWZ9AzMPPxD3Fy8zIxt1ZR15GQVlLXMhSXVmLQMzJ39/K3tHG0dXC1cXDRNzJXVtfl5BVl0NYzASoHSsgrqQsBjWbiU1bXU9c2BADJWxZSoMVdogAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":5});
 ;// CONCATENATED MODULE: ./components/zigzag.tsx
 
 
@@ -1429,7 +1256,7 @@ function Zigzag() {
                                         "data-aos": "fade-up",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                             className: "max-w-full mx-auto md:max-w-none h-auto",
-                                            src: features_03_image_01,
+                                            src: dashboard2,
                                             width: 540,
                                             height: 405,
                                             alt: "Features 01"
@@ -1519,7 +1346,7 @@ function Zigzag() {
                                         "data-aos": "fade-up",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                             className: "max-w-full mx-auto md:max-w-none h-auto",
-                                            src: features_03_image_02,
+                                            src: nodeview2,
                                             width: 540,
                                             height: 405,
                                             alt: "Features 02"
@@ -1537,7 +1364,7 @@ function Zigzag() {
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                                     className: "h3 mb-3",
-                                                    children: "Bug Detection and Fixes"
+                                                    children: "Issue Detection"
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                                     className: "text-xl text-gray-400 mb-4",
@@ -1609,7 +1436,7 @@ function Zigzag() {
                                         "data-aos": "fade-up",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                             className: "max-w-full mx-auto md:max-w-none h-auto",
-                                            src: features_03_image_03,
+                                            src: pullrequest,
                                             width: 540,
                                             height: 405,
                                             alt: "Features 03"
@@ -1731,7 +1558,7 @@ function Home() {
 
 /***/ }),
 
-/***/ 4369:
+/***/ 5735:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1739,11 +1566,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/features-03-image-01.c6c2a762.png","height":810,"width":1080,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAIAAABxZ0isAAAAkElEQVR42g3MSQ6DIBQAUE7SRCvgR0DE1AE+DtXGDmm6ardepHfolcv6JY8MOKZUpBQyLjMOQjY4/sz7QzrE2vvWDUIZLqKV6+P72ncCuUacw/nih6W0DZSmag8sYUSpundTmFd78rFKWeH8sm13IrV1YcZp6cMUt4RC13bP641kueayAmmEqhgomssjL4S2f+1UHa2RwcCGAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":6});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/dashboard2.3ca13713.png","height":714,"width":998,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAIAAABxZ0isAAAAiUlEQVR42g3MwQnCQBAF0D+zs5soIl4CCh7EAuzA0rxagndbsRZvIlGDEHedmewr4NEvZ2YEYiKoB1QMd5frpX/cFcduVJzWZxTNt+SrpWz36DbBOwUcceEidtj5vKHh+w6BE7OZj5asJk18foz611BHVbSzCLeSM0BELG0bJUgpKkLMSYC/OzFPHpA86RmDjjcAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":6});
 
 /***/ }),
 
-/***/ 6123:
+/***/ 3252:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1751,11 +1578,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/features-03-image-02.c699f572.png","height":810,"width":1080,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAIAAABxZ0isAAAAlklEQVR42mOws7FXVNNWVddW09JTlFBWkzKwc5pgHB7BYGtlY2NppaFvpCStbhzkaBXjY2xYou/lzaCopqytJWhpbqZnYKLv4GDt66miwqAso8Sgpetoap6so+egZ2RlZmanpW6gqWsCNJbB2DTOz3+eoXGUirqMgYWloam5irq2qoYOg5KqjIQMkJRT1dADCkFEdQxMAJtUHDDqGQ8LAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":6});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/nodeview2.7e1d5f79.png","height":714,"width":1181,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAeElEQVR42iWLSwrCQBBE+wSCd3Dp1dyJH4I7QbyELsbbRTLfnunumUnSEHgFBVUPcmFiFqkbtTaNFpisSwl1UoKPIcScS8ICznohWea5906kMrfWEQmM+Q3D5Xw9fc1H7+P4dz4gMjxf7/3xADu4Pe4xJus8YhZpK+NYZoLBVrusAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":5});
 
 /***/ }),
 
-/***/ 5317:
+/***/ 486:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1763,19 +1590,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/features-03-image-03.818bd422.png","height":810,"width":1080,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAIAAABxZ0isAAAAkElEQVR42g3Muw3CMBAAUG9AS4FAie3zxd8zIcQJNh9RowTR0tCxAlswMrwBHjvm05qjVEaiEwob3ZXLt389WUplGA5gImgPOsR9zudPnG9M4nifppKIqFVmVKZIZGJZMedIh2vqH84F48jTqHSLNjChViHOtH3XuCHfRSKBFhr7rzyHisMCMHBlajCA1tLuB3i1G2h5T6MaAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":6});
-
-/***/ }),
-
-/***/ 7570:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/hero-image-01.1f6edd86.jpg","height":1152,"width":2048,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAUACAMBIgACEQEDEQH/xAAoAAEBAAAAAAAAAAAAAAAAAAAABgEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAJIFf//EABoQAAIDAQEAAAAAAAAAAAAAAAEDAgQRACP/2gAIAQEAAT8Ar3mNWSdHhFhyXf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQIBAT8Af//EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oACAEDAQE/AI//2Q==","blurWidth":8,"blurHeight":5});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/pullrequest.ff84006b.png","height":714,"width":1181,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAgklEQVR42mPwCPVxcHKzcXC3cfS1c/KwtnMSEpMVEJVhcAsMM7NyllbUk1U2EJJUZ+CQU1bTE5OWZ9AzMPPxD3Fy8zIxt1ZR15GQVlLXMhSXVmLQMzJ39/K3tHG0dXC1cXDRNzJXVtfl5BVl0NYzASoHSsgrqQsBjWbiU1bXU9c2BADJWxZSoMVdogAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":5});
 
 /***/ })
 
@@ -1786,7 +1601,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [399,936,330,776], () => (__webpack_exec__(7867)));
+var __webpack_exports__ = __webpack_require__.X(0, [399,936,703,338], () => (__webpack_exec__(7867)));
 module.exports = __webpack_exports__;
 
 })();

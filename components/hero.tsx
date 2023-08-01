@@ -1,5 +1,7 @@
 import VideoThumb from '@/public/images/hero-image-01.jpg'
 import ModalVideo from '@/components/modal-video'
+import Image from 'next/image'
+import createPR from '@/public/images/create_pr2.png'
 
 export default function Hero() {
   return (
@@ -20,15 +22,17 @@ export default function Hero() {
         </div>
 
         {/* Hero content */}
-        <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
+        <div className="relative pt-28 pb-10 md:pt-15 md:pb-8">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4" data-aos="fade-up">Repodex: Find and Fix Bugs</h1>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">AI-powered code analysis. Detect bugs, assess risks, and optimize your codebase with a single click.</p>
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-8">
+            <h1 className="h1 mb-4" data-aos="fade-up">Repodex</h1>
+            {/* <h1 className="h2 mb-4" data-aos="fade-up">Repodex: Your AI Software Engineer</h1> */}
+            {/* <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">AI-powered code analysis. Detect bugs, assess risks, and optimize your codebase with a single click.</p> */}
+            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Your AI Software Engineer</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.repodex.io">Try it Free</a>
+                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.repodex.ai">Try it Free</a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
                 <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="https://calendly.com/canonicalmg/product-demo">Get a Demo</a>
@@ -36,6 +40,25 @@ export default function Hero() {
             </div>
           </div>
 
+
+          <div className="flex justify-center items-center">
+            <Image
+            data-aos="fade-up" data-aos-delay="400"
+              src={createPR}
+              alt="Create PR screenshot"
+              width={920}
+              height={520} 
+              // width={820}
+              // height={460} 
+            />
+          </div>
+{/* 
+          <Image
+            src={createPR}
+            alt="Create PR screenshot"
+            width={1024}
+            height={576} 
+          /> */}
           {/* <ModalVideo
             thumb={VideoThumb}
             thumbWidth={1024}

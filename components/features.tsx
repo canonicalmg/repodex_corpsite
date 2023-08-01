@@ -6,8 +6,8 @@ export default function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Unlock Your Code's Full Potential With The Power of Repodex</h2>
-            <p className="text-xl text-gray-400">Accelerate your team's productivity with AI-powered bug detection, security assessment, and code optimization. Experience smoother workflows and stronger code with Repodex.</p>
+            <h2 className="h2 mb-4">Empower Your Team with Repodex, Your AI Software Engineer</h2>
+            <p className="text-xl text-gray-400">Revolutionize your workflows with automated error detection and fixes, seamlessly integrated into your Slack workspace. With Repodex, fortify your code and empower your team to focus on breakthrough innovation.</p>
           </div>
 
           {/* Items */}
@@ -20,8 +20,8 @@ export default function Features() {
                 <path className="stroke-current text-purple-100" d="M30 39.313l-4.18 2.197L27 34.628l-5-4.874 6.91-1.004L32 22.49l3.09 6.26L42 29.754l-3 2.924" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg>
-              <h4 className="h4 mb-2">Bug Detection Agent</h4>
-              <p className="text-lg text-gray-400 text-center">Our AI-driven Bug Detection Agent scans your entire codebase, methodically identifying software bugs at every level of resolution. Spend less time searching for bugs and more time creating efficient software.</p>
+              <h4 className="h4 mb-2">Automated Bug Resolution</h4>
+              <p className="text-lg text-gray-400 text-center">Repodex uses cutting-edge technology to scan your entire codebase, identifying and proposing solutions for bugs at all levels. Instead of spending crucial time on search and resolution, your team can concentrate on building and innovating, knowing that Repodex is continuously improving your code quality.</p>
             </div>
 
             {/* 2nd item */}
@@ -31,8 +31,8 @@ export default function Features() {
                 <path className="stroke-current text-purple-100" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
-              <h4 className="h4 mb-2">Security Risk Agent</h4>
-              <p className="text-lg text-gray-400 text-center">With our Security Risk Agent, potential security threats are uncovered in real-time. By proactively identifying these issues, you can strengthen your software's security before they become a problem.</p>
+              <h4 className="h4 mb-2">Real-Time Slack Integration</h4>
+              <p className="text-lg text-gray-400 text-center">Never miss a beat with Repodex's real-time Slack integration. Get instant updates and start important conversations about detected issues and suggested fixes. Manage tasks effectively and keep your entire team on the same page without leaving your favorite communication tool.</p>
             </div>
 
             {/* 3rd item */}
@@ -45,8 +45,8 @@ export default function Features() {
                   <circle className="stroke-current text-purple-100" cx="11" cy="11" r="11" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Optimization Agent</h4>
-              <p className="text-lg text-gray-400 text-center">The Optimization Agent goes beyond finding bugs. It scans your codebase for potential areas of improvement, helping you streamline your code for better performance and efficiency.</p>
+              <h4 className="h4 mb-2">Automated Pull Requests</h4>
+              <p className="text-lg text-gray-400 text-center">Repodex not only identifies issues, but it also takes action. With automated pull request generation, Repodex delivers ready-to-review code changes right in your team's workflow. Save time and expedite issue resolution, letting your team focus on feature development.</p>
             </div>
 
             {/* 4th item */}
@@ -58,8 +58,8 @@ export default function Features() {
                   <circle className="stroke-current text-purple-300" cx="13" cy="9" r="3" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Documentation Agent</h4>
-              <p className="text-lg text-gray-400 text-center">Our Documentation Agent assesses the quality and completeness of your code documentation, ensuring your team has the necessary information to maintain and enhance the code effectively.</p>
+              <h4 className="h4 mb-2">Adaptive Learning</h4>
+              <p className="text-lg text-gray-400 text-center">Repodex is AI-powered, which means it learns and evolves with your codebase. Over time, it becomes even more efficient and precise in spotting potential bugs and security vulnerabilities, continuously improving your software quality.</p>
             </div>
 
             {/* 5th item */}
@@ -71,8 +71,8 @@ export default function Features() {
                   <path className="stroke-current text-purple-300" d="M22 30h4v12h-4z" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Node Risk Assessment</h4>
-              <p className="text-lg text-gray-400 text-center">Each issue detected is assigned a risk level, enabling you to prioritize areas of your codebase based on risk. Make strategic decisions about where to focus your resources for bug resolution and code optimization.</p>
+              <h4 className="h4 mb-2">24/7 Monitoring</h4>
+              <p className="text-lg text-gray-400 text-center">Repodex works round the clock, ensuring your product is consistently monitored for any potential bugs and security risks. It's like having a dedicated software engineer who never sleeps, keeping your system optimized at all times.</p>
             </div>
 
             {/* 6th item */}
@@ -85,8 +85,8 @@ export default function Features() {
                   <path className="stroke-current text-purple-100" d="M8.86 1.18C3.8 1.988 0 5.6 0 10c0 5 4.9 9 11 9a10.55 10.55 0 003.1-.4L20 21l-.6-5.2a9.125 9.125 0 001.991-2.948" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">One-Click PR Fix</h4>
-              <p className="text-lg text-gray-400 text-center">Once issues have been identified, our platform generates a solution and allows you to implement it with just one click. A pull request is created in Github, making the resolution process as seamless as possible.</p>
+              <h4 className="h4 mb-2">User-friendly Web App</h4>
+              <p className="text-lg text-gray-400 text-center">Get a deeper dive into your codebase through Repodex's intuitive web app. Review detected issues, proposed solutions, and overall code health in an easy-to-navigate interface. It's efficient code management at your fingertips.</p>
             </div>
 
           </div>

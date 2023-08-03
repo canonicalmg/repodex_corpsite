@@ -1353,6 +1353,9 @@ input[type=range]::-moz-focus-outer {
 .h-full {
   height: 100%;
 }
+.h-screen {
+  height: 100vh;
+}
 .max-h-full {
   max-height: 100%;
 }
@@ -2038,6 +2041,10 @@ input[type=range]::-moz-focus-outer {
 
   .md\:pt-40 {
     padding-top: 10rem;
+  }
+
+  .md\:pt-12 {
+    padding-top: 3rem;
   }
 }
 @media (min-width: 1024px) {

@@ -2,6 +2,7 @@ import VideoThumb from '@/public/images/hero-image-01.jpg'
 import ModalVideo from '@/components/modal-video'
 import Image from 'next/image'
 import createPR from '@/public/images/create_pr2.png'
+import logo from '@/public/images/logo_white.png';
 
 export default function Hero() {
   return (
@@ -22,13 +23,22 @@ export default function Hero() {
         </div>
 
         {/* Hero content */}
-        <div className="relative pt-28 pb-10 md:pt-15 md:pb-8">
+        <div className="relative pt-28 pb-10 md:pt-12 md:pb-8">
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-8">
-            <h1 className="h1 mb-4" data-aos="fade-up">Repodex</h1>
+            {/* <h1 className="h1 mb-4" data-aos="fade-up">Repodex</h1> */}
+            <div className="flex justify-center items-center h-full">
+              <Image 
+                className="h1 mb-4" 
+                data-aos="fade-up" 
+                src={logo} 
+                alt="Logo" 
+                height={100} 
+              />
+            </div>
+
             {/* <h1 className="h2 mb-4" data-aos="fade-up">Repodex: Your AI Software Engineer</h1> */}
-            {/* <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">AI-powered code analysis. Detect bugs, assess risks, and optimize your codebase with a single click.</p> */}
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Your AI Software Engineer</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
@@ -48,25 +58,8 @@ export default function Hero() {
               alt="Create PR screenshot"
               width={920}
               height={520} 
-              // width={820}
-              // height={460} 
             />
           </div>
-{/* 
-          <Image
-            src={createPR}
-            alt="Create PR screenshot"
-            width={1024}
-            height={576} 
-          /> */}
-          {/* <ModalVideo
-            thumb={VideoThumb}
-            thumbWidth={1024}
-            thumbHeight={576}
-            thumbAlt="Modal video thumbnail"
-            video="/videos/video.mp4"
-            videoWidth={1920}
-            videoHeight={1080} /> */}
 
         </div>
 

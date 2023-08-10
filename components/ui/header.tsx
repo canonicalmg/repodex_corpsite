@@ -38,6 +38,14 @@ export default function Header() {
                   Sign up
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="https://repodex.ai/pricing"
+                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  Pricing
+                </Link>
+              </li>
             </ul>
           </nav>
 

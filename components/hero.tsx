@@ -3,6 +3,7 @@ import ModalVideo from '@/components/modal-video'
 import Image from 'next/image'
 import createPR from '@/public/images/create_pr2.png'
 import logo from '@/public/images/logo_white.png';
+import Link from 'next/link';
 
 export default function Hero() {
   return (
@@ -29,13 +30,14 @@ export default function Hero() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-8">
             {/* <h1 className="h1 mb-4" data-aos="fade-up">Repodex</h1> */}
             <div className="flex justify-center items-center h-full">
+            <Link href="/">
               <Image 
-                className="h1 mb-4" 
-                data-aos="fade-up" 
-                src={logo} 
-                alt="Logo" 
-                height={100} 
-              />
+                  data-aos="fade-up" 
+                  src={logo} 
+                  alt="Logo" 
+                  height={100} 
+                />
+            </Link>
             </div>
 
             {/* <h1 className="h2 mb-4" data-aos="fade-up">Repodex: Your AI Software Engineer</h1> */}

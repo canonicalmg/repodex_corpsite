@@ -74,7 +74,7 @@ export default function MobileMenu() {
             </Link>
           </li>
           <li>
-            <Link href="https://app.repodex.ai/pricing" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+            <Link href="https://repodex.ai/pricing" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
               Pricing
             </Link>
           </li>

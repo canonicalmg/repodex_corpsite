@@ -39,7 +39,7 @@ export default function Newsletter() {
           const formMessage = document.getElementById('formMessage');
         
           try {
-            const response = await fetch('https://backend.repodex.ai/api/contact', {
+            const response = await fetch('https://backend.repodex.ai/api/contact/', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',

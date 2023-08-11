@@ -2,7 +2,7 @@ import React from 'react';
 
 const Pricing = () => {
   return (
-    <div className="bg-black-800 py-12 flex flex-col justify-center sm:py-5">
+    <div className="bg-black-800 mt-12 py-12 flex flex-col justify-center sm:py-5">
       <div className="w-full" style={{ paddingLeft: '5em', paddingRight: '5em' }}>
         <h1 className="text-3xl font-semibold mb-4 text-center">Select the right plan for your team</h1>
         <div className="flex flex-wrap -mx-2">

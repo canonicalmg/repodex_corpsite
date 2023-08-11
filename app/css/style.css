@@ -20,3 +20,28 @@
 [x-cloak=""] {
     display: none;
 }
+
+.header-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+    backdrop-filter: blur(3px); /* Adjust the pixel value to achieve the desired blur intensity */
+    background-color: rgba(21, 23, 25, 0.5); /* Black (#151719) with 50% opacity */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for depth */
+    z-index: 1000; /* Ensures the header stays above other content */
+  }
+  
+  .large-header {
+    font-size: 10vh;
+}
+.large-subheader {
+    font-size: 8vh;
+}
+
+.styled-highlight {
+    color: rgb(93, 93, 255);
+    padding: 0.2rem 0.5rem; /* Optional: added for better visual appearance */
+    border-radius: 0.25rem; /* Optional: added to make the background have rounded corners */
+}

@@ -78,6 +78,9 @@ export default function Footer() {
                   <li className="mb-1">
                     <Link href="https://linkedin.com/company/repodex" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Linkedin</Link>
                   </li>
+                  <li className="mb-1">
+                    <Link href="/terms-of-service" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Terms</Link>
+                  </li>
                 </ul>
               </div>
 

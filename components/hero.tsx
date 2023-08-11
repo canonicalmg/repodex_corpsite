@@ -1,7 +1,6 @@
 import VideoThumb from '@/public/images/hero-image-01.jpg'
 import ModalVideo from '@/components/modal-video'
-import Image from 'next/image'
-import createPR from '@/public/images/create_pr2.png'
+
 import logo from '@/public/images/logo_white.png';
 import Link from 'next/link';
 
@@ -26,42 +25,52 @@ export default function Hero() {
         {/* Hero content */}
         <div className="relative pt-28 pb-10 md:pt-12 md:pb-8">
 
-          {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-8">
-            {/* <h1 className="h1 mb-4" data-aos="fade-up">Repodex</h1> */}
-            <div className="flex justify-center items-center h-full">
-            <Link href="/">
-              <Image 
-                  data-aos="fade-up" 
-                  src={logo} 
-                  alt="Logo" 
-                  height={100} 
-                />
-            </Link>
-            </div>
+{/* Section header */}
+<div className="max-w-3xl mx-auto text-center pb-12 md:pb-8">
+    {/* Headline */}
+    <div className="flex justify-center items-center h-full">
+      {/* <h1 className="large-header text-center font-bold" data-aos="fade-up">Let's Build Together</h1> */}
+      <h1 className="large-subheader text-center font-bold" data-aos="fade-up"> 
+      <span className="styled-highlight">Focus</span>On
+      Features.
+      </h1>
+    </div>
+    <div className="flex justify-center items-center h-full">
+      {/* <h1 className="large-header text-center font-bold" data-aos="fade-up">Let's Build Together</h1> */}
+      <h1 className="large-subheader text-center font-bold" data-aos="fade-up"> 
+      <span className="styled-highlight">Automate</span>
+      The Rest.
+      </h1>
+    </div>
 
-            {/* <h1 className="h2 mb-4" data-aos="fade-up">Repodex: Your AI Software Engineer</h1> */}
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Your AI Software Engineer</p>
-            <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
-              <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.repodex.ai">Try it Free</a>
-              </div>
-              <div data-aos="fade-up" data-aos-delay="600">
-                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="https://calendly.com/marcus-repodex/30min">Get a Demo</a>
-              </div>
-            </div>
-          </div>
+    {/* Subheadline */}
+    <p className="text-xl text-gray-400 mt-4 mb-8" data-aos="fade-up" data-aos-delay="200">
+        Automate your software development process. From code reviews to bug fixes, we've got you covered.
+    </p>
+
+    {/* Call-to-Action Buttons */}
+    <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
+        <div data-aos="fade-up" data-aos-delay="400">
+            <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.repodex.ai">Try it Free</a>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="600">
+            <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="https://calendly.com/marcus-repodex/30min">Get a Demo</a>
+        </div>
+    </div>
+</div>
+
 
 
           <div className="flex justify-center items-center">
-            <Image
-            data-aos="fade-up" data-aos-delay="400"
-              src={createPR}
-              alt="Create PR screenshot"
-              width={920}
-              height={520} 
-            />
-          </div>
+            <ModalVideo
+              thumb={VideoThumb}
+              thumbWidth={768}
+              thumbHeight={432}
+              thumbAlt="Modal video thumbnail"
+              video="/videos/HeroDemoLR.mp4"
+              videoWidth={768}
+              videoHeight={432} />
+            </div>
 
         </div>
 

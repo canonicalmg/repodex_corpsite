@@ -67,7 +67,7 @@ export default function Hero() {
               thumbWidth={768}
               thumbHeight={432}
               thumbAlt="Modal video thumbnail"
-              video="/videos/HeroDemoLR.mp4"
+              video="/videos/HeroDemoLRAnnotated.mp4"
               videoWidth={768}
               videoHeight={432} />
             </div>

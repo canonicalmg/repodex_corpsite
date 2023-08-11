@@ -5,12 +5,14 @@ export const metadata = {
 
 import Hero from '@/components/pricing_hero'
 import Pricing from '@/components/pricing'
+import Footer from '@/components/ui/footer'
 
 export default function Home() {
   return (
     <>
       <Hero />
       <Pricing />
+      <Footer />
     </>
   )
 }

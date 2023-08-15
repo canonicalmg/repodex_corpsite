@@ -33,12 +33,39 @@
     z-index: 1000; /* Ensures the header stays above other content */
   }
   
-  .large-header {
-    font-size: 10vh;
+  .large-header, .large-subheader {
+    font-size: calc(5vh + 2rem);
+    overflow: hidden;
 }
-.large-subheader {
-    font-size: 8vh;
+
+/* Media queries for different screen sizes */
+@media screen and (max-width: 600px) {
+    .large-header {
+        font-size: 2.5rem; /* Adjust as needed */
+    }
+    .large-subheader {
+        font-size: 2rem; /* Adjust as needed */
+    }
 }
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+    .large-header {
+        font-size: 4rem; /* Adjust as needed */
+    }
+    .large-subheader {
+        font-size: 3.5rem; /* Adjust as needed */
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .large-header {
+        font-size: 5rem; /* Adjust as needed */
+    }
+    .large-subheader {
+        font-size: 4rem; /* Adjust as needed */
+    }
+}
+
 
 .styled-highlight {
     color: rgb(93, 93, 255);

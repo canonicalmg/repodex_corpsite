@@ -1,5 +1,4 @@
 {
-  "/terms-of-service/page": "app/terms-of-service/page.js",
   "/pricing/page": "app/pricing/page.js",
   "/(default)/page": "app/(default)/page.js"
 }

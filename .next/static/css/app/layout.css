@@ -1768,9 +1768,6 @@ input[type=range]::-moz-focus-outer {
   --tw-placeholder-opacity: 1;
   color: rgb(171 171 255 / var(--tw-placeholder-opacity));
 }
-.opacity-50 {
-  opacity: 0.5;
-}
 .opacity-75 {
   opacity: 0.75;
 }

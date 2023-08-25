@@ -13,30 +13,26 @@ const Pricing = () => {
               <h1 className="text-3xl font-extrabold mb-3">$0</h1>
               <ul className="mb-6">
                 {/* Sample features for Starter */}
-                <li className="flex items-center mb-2" title="Coming soon!">
-                  <svg className="h-5 w-5 text-gray-500 mr-2" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                    <path fillRule="evenodd" d="M6.293 9.293a1 1 0 011.414 0L10 11.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clipRule="evenodd" />
-                  </svg>
-                  <span className="text-gray-500">
+                <li className="flex items-center mb-2">
+                    <svg className="h-5 w-5 text-cyan-500 mr-2" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fillRule="evenodd" d="M6.293 9.293a1 1 0 011.414 0L10 11.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clipRule="evenodd" />
+                    </svg>
                     1 Repository
-                  </span>
                 </li>
-                <li className="flex items-center mb-2" title="Coming soon!">
-                  <svg className="h-5 w-5 text-gray-500 mr-2" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                    <path fillRule="evenodd" d="M6.293 9.293a1 1 0 011.414 0L10 11.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clipRule="evenodd" />
-                  </svg>
-                  <span className="text-gray-500">Manual Code Reviews (GPT3) (15/mo)</span>
+                <li className="flex items-center mb-2">
+                    <svg className="h-5 w-5 text-cyan-500 mr-2" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fillRule="evenodd" d="M6.293 9.293a1 1 0 011.414 0L10 11.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clipRule="evenodd" />
+                    </svg>
+                    Manual Code Scan (15/mo)
                 </li>
-                {/* Add more features as needed */}
               </ul>
               <div className="w-full flex justify-center">
-                <button 
-                    className="btn-sm text-white bg-purple-600 hover:bg-purple-700 px-6 py-2 rounded-full cursor-not-allowed opacity-50" 
-                    disabled 
-                    title="Coming Soon"
-                >
-                    Get Started
-                </button>
+              <a href="https://app.repodex.ai/register" className="inline-block">
+                  <button className="btn-sm text-white bg-purple-600 hover:bg-purple-700 px-6 py-2 rounded-full"
+                      >
+                      Get Started
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -73,11 +69,11 @@ const Pricing = () => {
                     </svg>
                     Stack Trace Solver (50/mo)
                 </li>
-                <li className="flex items-center mb-2" title="Coming soon!">
-                  <svg className="h-5 w-5 text-gray-500 mr-2" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <li className="flex items-center mb-2">
+                  <svg className="h-5 w-5 text-cyan-500 mr-2" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path fillRule="evenodd" d="M6.293 9.293a1 1 0 011.414 0L10 11.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-gray-500">Manual Code Reviews (GPT4) (50/mo) - Coming soon!</span>
+                  Manual Code Reviews (50/mo)
                 </li>
                 <li className="flex items-center mb-2" title="Coming soon!">
                   <svg className="h-5 w-5 text-gray-500 mr-2" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -132,11 +128,11 @@ const Pricing = () => {
                     </svg>
                     Stack Trace Solver (100/mo)
                 </li>
-                <li className="flex items-center mb-2" title="Coming soon!">
-                  <svg className="h-5 w-5 text-gray-500 mr-2" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <li className="flex items-center mb-2">
+                  <svg className="h-5 w-5 text-cyan-500 mr-2" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path fillRule="evenodd" d="M6.293 9.293a1 1 0 011.414 0L10 11.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-gray-500">Automatic Code Reviews (GPT4) (100/mo) - Coming soon!</span>
+                  Automatic Code Reviews (100/mo)
                 </li>
                 <li className="flex items-center mb-2" title="Coming soon!">
                   <svg className="h-5 w-5 text-gray-500 mr-2" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -191,11 +187,11 @@ const Pricing = () => {
                     </svg>
                     Stack Trace Solver (Unlimited)
                 </li>
-                <li className="flex items-center mb-2" title="Coming soon!">
-                  <svg className="h-5 w-5 text-gray-500 mr-2" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <li className="flex items-center mb-2">
+                  <svg className="h-5 w-5 text-cyan-500 mr-2" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path fillRule="evenodd" d="M6.293 9.293a1 1 0 011.414 0L10 11.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-gray-500">Automatic Code Reviews (GPT4) (Unlimited) - Coming soon!</span>
+                  Automatic Code Reviews (GPT4) (Unlimited)
                 </li>
                 <li className="flex items-center mb-2" title="Coming soon!">
                   <svg className="h-5 w-5 text-gray-500 mr-2" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">

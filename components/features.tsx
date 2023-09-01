@@ -58,9 +58,10 @@ export default function Features() {
                   <circle className="stroke-current text-purple-300" cx="13" cy="9" r="3" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Adaptive Learning</h4>
-              <p className="text-lg text-gray-400 text-center">Repodex is AI-powered, which means it learns and evolves with your codebase. Over time, it becomes even more efficient and precise in spotting potential bugs and security vulnerabilities, continuously improving your software quality.</p>
-            </div>
+              <h4 className="h4 mb-2">Safe Analysis</h4>
+<p className="text-lg text-gray-400 text-center">Repodex provides a thorough AI-powered analysis of your codebase, always prioritizing your code's security and privacy. We strictly adhere to secure industry standards and only access what's absolutely necessary for the analysis. Rest assured, we never sell, share, or use your code for external training. Our primary goal is to improve your software quality while ensuring your data remains uncompromised and confidential.</p>
+</div>
+
 
             {/* 5th item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="400" data-aos-anchor="[data-aos-id-blocks]">

@@ -49,12 +49,17 @@ export default function Hero() {
     </p>
 
     {/* Call-to-Action Buttons */}
-    <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
+    <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center pb-10">
         <div data-aos="fade-up" data-aos-delay="400">
             <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.repodex.ai">Try it Free</a>
         </div>
         <div data-aos="fade-up" data-aos-delay="600">
             <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="https://calendly.com/marcus-repodex/30min">Get a Demo</a>
+        </div>
+    </div>
+    <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
+        <div data-aos="fade-up" data-aos-delay="900">
+          <a href="https://www.producthunt.com/posts/repodex?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-repodex" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=412383&theme=light" alt="Repodex - Automatically&#0032;find&#0032;and&#0032;fix&#0032;errors | Product Hunt" style={{width: '250px', height: '54px'}} width="250" height="54" /></a>
         </div>
     </div>
 </div>

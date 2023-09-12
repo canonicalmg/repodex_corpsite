@@ -1186,6 +1186,9 @@ input[type=range]::-moz-focus-outer {
 .pointer-events-none {
   pointer-events: none;
 }
+.static {
+  position: static;
+}
 .fixed {
   position: fixed;
 }
@@ -1420,6 +1423,9 @@ input[type=range]::-moz-focus-outer {
 }
 .cursor-not-allowed {
   cursor: not-allowed;
+}
+.cursor-pointer {
+  cursor: pointer;
 }
 .appearance-none {
   -webkit-appearance: none;
@@ -1859,6 +1865,19 @@ input[type=range]::-moz-focus-outer {
     padding: 0.2rem 0.5rem; /* Optional: added for better visual appearance */
     border-radius: 0.25rem; /* Optional: added to make the background have rounded corners */
 }
+.faq-item {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+.faq-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    margin-left: 20px; /* Indentation for opened text */
+  }
+input[type="checkbox"]:checked + label + .faq-content {
+    max-height: 100vh;
+  }
 .hover\:bg-gray-800:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(37 40 44 / var(--tw-bg-opacity));
@@ -2078,6 +2097,10 @@ input[type=range]::-moz-focus-outer {
     padding-bottom: 5rem;
   }
 
+  .md\:pb-12 {
+    padding-bottom: 3rem;
+  }
+
   .md\:pb-16 {
     padding-bottom: 4rem;
   }
@@ -2182,4 +2205,4 @@ input[type=range]::-moz-focus-outer {
     padding-right: 4rem;
   }
 }
-
+  

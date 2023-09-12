@@ -72,3 +72,20 @@
     padding: 0.2rem 0.5rem; /* Optional: added for better visual appearance */
     border-radius: 0.25rem; /* Optional: added to make the background have rounded corners */
 }
+
+.faq-item {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .faq-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    margin-left: 20px; /* Indentation for opened text */
+  }
+  
+  input[type="checkbox"]:checked + label + .faq-content {
+    max-height: 100vh;
+  }
+  
